@@ -1,0 +1,490 @@
+// Misc.
+$headerH: 5em;
+$headerHres: 4em;
+
+// Colors
+$cHeaderBG: #191919;
+$cHeaderNavHover: rgba(214, 214, 214, 0.2);
+$cHeaderNavPressure: rgba(151, 151, 151, 0.5);
+$cContainerPanel: rgba(75, 75, 75, 0.089);
+$cButtonHover: rgba(189, 189, 189, 0.486);
+$cButtonPressure: rgb(199, 199, 199);
+
+// Box Shadows
+$bxsHeader: 0 4px 4px 0px rgba(73, 73, 73, 0.431);
+
+// Media Queries
+$mqHeader: 900px;
+$mqContent: 900px;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+// Global
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// Imports
+@import 'common/mixins';
+@import 'common/header';
+
+.no-select { user-select: none; }
+
+html {
+    scroll-behavior: smooth;
+    font-family: Roboto, sans-serif;
+}
+
+#background {
+    // background-image: url('../media/images/bg1.jpg');
+    filter: blur(10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.2);
+    @include FixedScreen;
+}
+
+#container {
+    position: relative;
+    flex-grow: 1;
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+
+    > div {
+        flex-grow: 1;
+        flex-basis: 0;
+        margin: 1em;
+    }
+}
+
+@media screen and (max-width: $mqContent) {
+    
+    #container {
+        flex-direction: column;
+        width: 100%;
+
+        > div {
+            width: 90%;
+            margin-bottom: 3em;
+        }
+    }
+
+    
+    .lpTitle {
+        font-size: 40px !important;
+    }
+
+    .lpButton2 {
+
+        padding: 12px 1px !important;
+        span {
+            font-size: 85% !important;
+        }
+        
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .lpButton2 {
+
+        padding: 12px 1px !important;
+        span {
+            font-size: 80% !important;
+        }
+    }
+
+    .evInfo {
+        font-size: 85%;
+    }
+}
+
+div.lpCornerBox {
+    background-color: $cContainerPanel;
+    .content {
+        width: 80%;
+        min-width: 10em;
+        margin: 0 auto;
+        margin-bottom: unset;
+    }
+    .crnr-tr, .crnr-br { float: right; }
+    .crnr-tl, .crnr-bl { float: left; }
+    .crnr-tr { transform: rotate(90deg); }
+    .crnr-bl { transform: rotate(-90deg); }
+    .crnr-br { transform: rotate(180deg); }
+}
+
+div.lpButton {
+    display: inline-block;
+    padding: 15px 30px;
+
+    transition: background-color 0.15s ease-in-out;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 6px;
+
+    > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    &:hover {
+        background-color: $cButtonHover;
+
+    }
+}
+
+div.lpButton2 {
+    padding: 12px 30px;
+    max-width: 300px;
+    margin: 0 auto;
+    transition: filter 0.10s ease-in-out;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgb(46, 155, 155);
+    background: linear-gradient(20deg, rgb(0, 89, 255), rgb(0, 63, 165));
+    // background: linear-gradient(#e66465, #9198e5);
+    text-align: center;
+
+    &[disabled] {
+
+    }
+
+
+    > a {
+        text-decoration: none;
+        color: white;
+    }
+
+    &:hover {
+        filter: saturate(1.2);
+
+        
+        &:active {
+            filter: saturate(0.8);
+        }
+    }
+}
+
+.disabled_btn {
+    background: gray !important;
+}
+
+div.lpPost {
+    // height: 6em;
+    background-color: $cContainerPanel;
+    transition: background-color 0.1s ease-in-out;
+
+    * {
+        // user-select: none;
+    }
+
+    a {
+        text-decoration: none; 
+        color: black; 
+    }
+
+    .title {
+        padding: 5px;
+        padding-right: 15px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .content {
+        padding: 8px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    &:hover {
+        background-color: $cButtonHover;
+        // cursor: pointer;
+    }
+}
+
+.lpFancyButton {
+
+    user-select: none;
+
+    .clippedbg{
+        @include FixedScreen;
+        position: absolute;
+    }
+
+     a:active .clippedbg  {
+        // background-color: rgba(75, 75, 75, 0.185);
+            animation: fancyBtnClip 1.5s ease 0s 1 normal;
+            animation-play-state: running;
+        
+    }
+}
+
+.teamsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.lpTeamsContainer {
+    flex: 1;
+    margin: 0 .5em 0 .5em;
+    // position: relative; 
+
+    .__teams {
+        // background: $cContainerPanel;
+        
+        // box-shadow: 0 0 14px -3px rgba($color: #000000, $alpha: .3);
+        // border-bottom: 2px solid black;
+    }
+
+    > div:nth-child(1) {
+        box-shadow: 0 0 14px -3px rgba($color: #000000, $alpha: .3);
+    }
+}
+
+.lpTeamInfoPanel {
+    max-height: 0px;
+    transition:max-height .18s ease-in-out;
+        // ,
+        // border-bottom-left-radius .13s ease-in-out,
+        // border-bottom-right-radius .13s ease-in-out;
+    
+    background: rgba(241, 241, 241, 0.7);
+
+    border-radius: 0px;
+
+    
+    div {
+        // 
+    }
+}
+
+.lpTeam.open + .lpTeamInfoPanel {
+    max-height: 200px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+.lpTeam {
+    border-bottom: 1px solid rgb(184, 184, 184);
+    
+    .closedExpand, 
+    .closedExpand {
+        font-size: 24px;
+    }
+
+    .closedExpand {
+        display: initial;
+    }
+
+    .openExpand {
+        display: none;
+    }
+
+    &.open {
+        .closedExpand {
+            display: none;
+        }
+    
+        .openExpand {
+            display: initial;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .lpButton2 {
+
+        padding: 12px 1px !important;
+        span {
+            font-size: 75% !important;
+        }
+    }
+
+    .evInfo {
+        font-size: 85%;
+    }
+}
+
+@keyframes fancyBtnClip {
+    0% {
+        background-color: rgba(75, 75, 75, 0.253);
+        clip-path: circle(0.4% at 50% 50%);
+        opacity: 1;
+    }
+
+    50% {
+        background-color: rgba(75, 75, 75, 0.13);
+        clip-path: circle(70.7% at 50% 50%);
+        opacity: 0.6;
+    }
+
+    100% {
+        background-color: rgba(75, 75, 75, 0);
+        opacity: 0;
+    }
+}
+
+.__title_long {
+    // display: block;
+    box-sizing: border-box;
+}
+
+.__title_short {
+    display: none;
+}
+
+@media screen and (max-width: $mqHeader) {
+    .__title_long {
+        // display: none;
+        font-size: 80% !important;
+    }
+
+    .teamsContainer {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    
+
+    .__title_short {
+        // display: initial;
+    }
+}
+
+.lpBracketTitle {
+    background-color: rgb(38, 42, 50);
+    color: white;
+    text-align: center;
+
+    iframe ~ & {
+        margin-top: 2em;
+    }
+}
+
+iframe {
+    background-color: rgb(38, 42, 50);
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;;
+    
+    // background-color: rgb(0, 0, 0);
+    // flex-wrap: unset;
+    img {
+        // background-color: black;;
+        transform: scale(0.8);
+        display: block;
+
+    }
+}
+
+div[sponsors] {
+    visibility: hidden;
+
+    .content {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: $mqHeader) {
+    .sponsors  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;;
+    
+        a {
+            margin: -1em 0
+        }
+    }
+
+    
+}
+
+.header-nav-bracketlist {
+    // position: absolute;
+    background-color: $cHeaderBG;
+    // display: none;
+    box-shadow: $bxsHeader;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity 0.1s ease-in-out;
+
+    a {
+        text-decoration: none;
+    }
+
+    div {
+        padding: 5px;
+
+        &:hover {
+            background-color: $cHeaderNavHover;
+        }
+
+        &:active {
+            background-color: $cHeaderNavPressure;
+        }
+    }
+ 
+    .header-nav-btn:hover & {
+        opacity: 1;
+        pointer-events: all;
+    }
+}
+
+#responsiveBracketsPanel {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+
+
+    background-color: rgb(73, 73, 73);
+    user-select: none;
+    transition: max-height .2s ease-in-out;
+    
+
+    &[open] {
+        max-height: 400px;
+    }
+
+    div {
+        padding: 13px;
+        box-sizing: border-box;
+    }
+}
+
+.spored > div {
+    padding: 3px;
+}
+
+div[p] {
+    padding: 12px;
+}
+
+.sponsors {
+    img {
+        transition: transform 0.1s ease-in-out;
+
+        &:hover {
+            transform: scale(0.8) translateY(-9px);
+        }
+    }    
+}

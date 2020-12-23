@@ -1,0 +1,9 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+  <script>
+      window.addEventListener("load", () => {
+          document.getElementById("container").innerHTML = `<lpStream />`; 
+      }, true);
+  </script>
+{% endblock %}

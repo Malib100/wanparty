@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="si">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:url" content="http://lanparty.scv.si" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ERŠ Lan Party 2020" />
+	<meta property="og:image" content="http://lanparty.scv.si/media/images/lp2020.png" />
+    <meta property="og:description" content="17-18. 1. 2020" />
+    <title>ERŠ Wan Party</title>
+
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script type="application/javascript" src="/js/Templator.js"></script>
+</head>
+
+<body>
+    <div id="background"></div>
+
+    <div id="header-container">
+        <div id="header">
+            <div id="header-content">
+                <lpNav _id="nav-header-logo" link="/">
+                    <div id='header-logo'></div>
+                </lpNav>
+
+                <div id="header-nav">
+                    <!-- <lpNav link="/">DOMOV</lpNav> -->
+                    <lpNav link="/ekipe">EKIPE</lpNav>
+                    <lpNav link="/spored">SPORED</lpNav>
+                    <!-- <lpNav link="/razporedja">RAZPOREDJA</lpNav> -->
+                    <lpNav_Brackets>BRACKET</lpNav_Brackets>
+                    <lpNav link="/faq">FAQ</lpNav>
+                    <lpNav link="/stream">STREAM</lpNav>
+                </div>
+            </div>
+        </div>
+
+        <div id="responsiveHeader">
+            <lpResponsiveLogo > </lpResponsiveLogo>
+        </div>
+
+        <div id="responsiveHeader_Menu">
+            <!-- <lpResMenuNav link="/">DOMOV</lpResMenuNav> -->
+            <lpResMenuNav link="/ekipe">EKIPE</lpResMenuNav>
+            <lpResMenuNav link="/spored">SPORED</lpResMenuNav>
+            <lpResBracketsNav>BRACKET</lpResBracketsNav>
+            <lpResMenuNav link="/faq">FAQ</lpResMenuNav>
+            <lpResMenuNav link="/stream">STREAM</lpResMenuNav>
+        </div>
+    </div>
+
+    <div id="headerSeperator"></div>
+
+    <!-- <lpFancyButton>awdawd</lpFancyButton> -->
+
+    <div id="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <script defer type="application/javascript" src="/js/lp.templates.js"></script>
+</body>
+</html>

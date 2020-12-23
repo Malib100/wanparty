@@ -1,0 +1,45 @@
+{
+    "lastChange": "2020. 01. 2020",
+    "teams": {
+        "csgo": [{
+            "team": "SkunkCloud",
+            "players": [
+                "M4ski",
+                "Jayfour",
+                "Nenich",
+                "Kapien",
+                "Al1"
+            ]
+        }],
+        "lol": [{
+            "team": "Demonkoš",
+            "players": [
+                "M A C E K",
+                "MAX Macek",
+                "Saj0",
+                "Eyedee",
+                "Hudi"
+            ]
+        }],
+        "valorant": [{
+            "team": "Demonkoš",
+            "players": [
+                "M A C E K",
+                "MAX Macek",
+                "Saj0",
+                "Eyedee",
+                "Hudi"
+            ]
+        }],
+        "rl": [{
+            "team": "Demonkoš",
+            "players": [
+                "M A C E K",
+                "MAX Macek",
+                "Saj0",
+                "Eyedee",
+                "Hudi"
+            ]
+        }]
+    }
+}

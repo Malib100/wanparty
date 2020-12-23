@@ -1,0 +1,164 @@
+#header {
+    @include FixedTop;
+    height: $headerH;
+    user-select: none;
+
+    box-shadow: $bxsHeader;
+    background-color: $cHeaderBG;
+    z-index: 99999999999;
+
+    color: white;
+
+    #header-content {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+
+        #header-logo {
+            // float: left;
+            width: $headerH;
+            height: 100%;
+            height: $headerH;
+        
+            background-image: url('../media/images/erslogo.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #header-nav {
+            display: flex;
+            flex-direction: row;
+            float: right;
+            height: 100%;
+            z-index: 999999999999;
+        }
+    }
+
+    .header-nav-btn {
+        display: inline-block;
+        position: relative;
+        height: 100%;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.1s linear;
+        a {
+            color: white
+        };
+
+        .header-nav-btn-content {
+            display: inline-block;
+            margin: 0 1.5em;
+            line-height: $headerH;
+        }
+
+        .header-nav-btn-underline {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 0;
+        
+            pointer-events: none;
+            background-color: white;
+            transition: height 0.1s linear;
+        }
+
+        &:hover {
+
+            background-color: $cHeaderNavHover;
+
+            &:active {
+                background-color: $cHeaderNavPressure;
+
+                .header-nav-btn-underline {
+                    height: 6px;
+                }
+            }
+
+            .header-nav-btn-underline {
+                height: 4px;
+            }
+        }
+    }
+
+    #nav-header-logo .header-nav-btn-content {
+        margin: 0 1em;
+    }
+}
+
+#headerSeperator {
+    height: $headerH + 1.6em;
+    
+}
+
+#responsiveHeader {
+    @include FixedTop;
+    height: $headerHres;
+    user-select: none;
+    display: none;
+
+    box-shadow: $bxsHeader;
+    background-color: $cHeaderBG;
+    z-index: 99999999999;
+
+    color: white;
+}
+
+#responsiveHeader_Menu {
+    position: fixed;
+    top: 4em;
+    left: 0;
+    right: 0;
+    background-color: rgba(3, 3, 3, 0.932);
+    background-color: $cHeaderBG;
+    border-bottom: 1px solid white;
+    z-index: 99999999999;
+    display: none;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    height: 0px;
+    overflow: hidden;
+
+    transition: height 0.2s ease-in-out;
+    &[show] {
+        height: auto;
+
+    }
+}
+
+
+
+.logo {
+    background-image: url('../media/images/erslogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    background-image: url('../media/images/menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: $mqHeader) {
+    #header {
+        display: none;
+    }
+
+    #responsiveHeader {
+        display: block;
+    }
+
+    #responsiveHeader_Menu {
+        display: block;
+    }
+
+    #headerSeperator {
+        height: $headerHres + 1.6em;
+    }
+}

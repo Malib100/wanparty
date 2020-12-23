@@ -1,0 +1,11 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+<div>
+  <lpTitle>RAZPOREDJA</lpTitle>
+<div>
+  <lpBracketTitle> {{game}} </lpBracketTitle>
+  <iframe src="{{bracket}}" width="100%" height="600" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+
+</div></div>
+{% endblock %}

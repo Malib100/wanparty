@@ -1,0 +1,14 @@
+{
+    "posts": [{
+            "date": "16.1.2021",
+            "title": "Pa smo tam...",
+            "body": "<p>Prijave so sedaj odprte! Čim hitreje se prijavite :)</p>"
+        },
+        {
+            "date": "12.2.2020",
+            "title": "Imate vprašanja?",
+            "body": "<p>Spoštovani udeleženci,<br>če imate kakršna koli vprašanja nas prosim kontaktirajte na email </p>"
+        }
+    ],
+    "posts_OLD": []
+}

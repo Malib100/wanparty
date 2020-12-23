@@ -1,0 +1,92 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+<div>
+    <lpTitle>EKIPE</lpTitle>
+
+    <style>
+        html  {
+            /* overflow-y: scroll; */
+        }
+    </style>
+
+    <!-- <div class="lpTeams">
+        <div class="partial">
+            <lpTeamColumn game="CS:GO"
+                frame="https://esports.thegamesmachine.it/wp-content/uploads/2019/04/charleroi.jpg"></lpTeamColumn>
+            <lpTeamColumn game="CS:GO"></lpTeamColumn>
+        </div>
+        <div class="partial">
+            <lpTeamColumn game="CS:GO"
+                frame="https://esports.thegamesmachine.it/wp-content/uploads/2019/04/charleroi.jpg"></lpTeamColumn>
+            <lpTeamColumn game="CS:GO"></lpTeamColumn>
+        </div>
+    </div> -->
+
+    <div id="teamsRoot">
+            <!-- https://esports.thegamesmachine.it/wp-content/uploads/2019/04/charleroi.jpg -->
+        <!-- GAMES LIST -->
+        <div class="teamsContainer">
+            <lpTeamsContainer
+                2game="Counter-Strike: Global Offensive"
+                game="CS:GO"
+                gameshort="CS:GO"
+                frame="https://i.ytimg.com/vi/ZfCOnCxJUVw/maxresdefault.jpg"
+            >
+                {% for team in teams.csgo %}
+                    <lpTeam teamname="{{ team.team | safe }}">
+                        {% for player in team.players %}
+                            <div>{{ player }}</div>
+                        {% endfor %}    
+                    </lpTeam>
+                {% endfor %}
+            </lpTeamsContainer>
+            <lpTeamsContainer
+                game="League of Legends"
+                frame="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/LolGameInfo-Harbinger/it_IT/b49c208c106c3566ac66bc70dc62993c84c0511e/assets/assets/images/gi-landing-top.jpg"
+            >
+                {% for team in teams.lol %}
+                    <lpTeam teamname="{{ team.team | safe }}">
+                        
+                        {% for player in team.players %}
+                            <div>{{ player }}</div>
+                        {% endfor %}
+                        
+                    </lpTeam>
+                {% endfor %}
+            </lpTeamsContainer>
+            <lpTeamsContainer
+                game="Valorant"
+                frame="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/LolGameInfo-Harbinger/it_IT/b49c208c106c3566ac66bc70dc62993c84c0511e/assets/assets/images/gi-landing-top.jpg"
+            >
+                {% for team in teams.valorant %}
+                    <lpTeam teamname="{{ team.team | safe }}">
+                        
+                        {% for player in team.players %}
+                            <div>{{ player }}</div>
+                        {% endfor %}
+                        
+                    </lpTeam>
+                {% endfor %}
+            </lpTeamsContainer>
+            <lpTeamsContainer
+                game="Rocket League"
+                frame="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/LolGameInfo-Harbinger/it_IT/b49c208c106c3566ac66bc70dc62993c84c0511e/assets/assets/images/gi-landing-top.jpg"
+            >
+                {% for team in teams.rl %}
+                    <lpTeam teamname="{{ team.team | safe }}">
+                        
+                        {% for player in team.players %}
+                            <div>{{ player }}</div>
+                        {% endfor %}
+                        
+                    </lpTeam>
+                {% endfor %}
+            </lpTeamsContainer>
+        </div>
+
+        <div style="text-align: center;">Stran nazadnje posodobljena {{ lastChange }}</div>
+    </div>
+</div>
+
+{% endblock %}
