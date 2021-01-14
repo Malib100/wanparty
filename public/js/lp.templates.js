@@ -121,7 +121,7 @@ Templator.New({
         return (html `
             <div>
                 <div><lpTitle>STREAM</lpTitle></div>
-                <iframe src="https://embed.twitch.tv/?channel=scvlanparty&height=680&migration=true&parent=wanparty.herokuapp.com&width=1520"></iframe>
+                <iframe width="1520" height="680" src="https://embed.twitch.tv/?channel=scvlanparty&height=680&migration=true&parent=wanparty.herokuapp.com&width=1520"></iframe>
             </div>
         `)
     }
