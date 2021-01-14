@@ -1,16 +1,6 @@
 {
-    "lastChange": "2020. 01. 2020",
+    "lastChange": "16. 01. 2020",
     "teams": {
-        "csgo": [{
-            "team": "SkunkCloud",
-            "players": [
-                "M4ski",
-                "Jayfour",
-                "Nenich",
-                "Kapien",
-                "Al1"
-            ]
-        }],
         "lol": [{
             "team": "Demonkoš",
             "players": [

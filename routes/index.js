@@ -42,16 +42,16 @@ let brackets = {
     },
     valorant: {
         game: 'Valorant',
-        bracket: 'https://challonge.com/fifaerslanparty2020/module'
+        bracket: 'https://battlefy.com/embeds/5fd77f4d0beb6e3294dfe065/stage/5fd77fc3a9607d74e8f8919b'
     },
     csgo: {
         game: 'Counter-Strike: Global Offensive',
-        bracket: 'https://challonge.com/ypv8t1sn/module'
+        bracket: 'https://battlefy.com/embeds/5fd77f4d0beb6e3294dfe065/stage/5fd77fc3a9607d74e8f8919b'
 
     },
     rl: {
         game: 'Rocket League',
-        bracket: 'https://challonge.com/rlerslanparty/module'
+        bracket: 'https://battlefy.com/embeds/5fd77f4d0beb6e3294dfe065/stage/5fd77fc3a9607d74e8f8919b'
     },
 }
 

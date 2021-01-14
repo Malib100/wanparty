@@ -32,7 +32,6 @@ Templator.New({
                 <div class="header-nav-btn-underline"></div>
 
                 <div  .header-nav-bracketlist>
-                    <a href="/razporedje/csgo" ><div>CS:GO</div></a>
                     <a href="/razporedje/lol" ><div>LoL</div></a>
                     <a href="/razporedje/valorant" ><div>Valorant</div></a>
                     <a href="/razporedje/rl" ><div>Rocket Leauge</div></a>
@@ -237,7 +236,6 @@ Templator.New({
         return html `
             <a #user-select="none" onClick="toggleBracketsPanel()"><div  #padding="15px 0" #text-align="center" >${props.children}</div></a>
             <div id="responsiveBracketsPanel" >
-                <a href="/razporedje/csgo" ><div>CS:GO</div></a>
                 <a href="/razporedje/lol" ><div>Leauge of Legends</div></a>
                 <a href="/razporedje/valorant" ><div>Valorant</div></a>
                 <a href="/razporedje/rl" ><div>Rocket Leauge</div></a>

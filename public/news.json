@@ -1,14 +1,56 @@
 {
-    "posts": [{
-            "date": "16.1.2021",
+    "posts": [
+        {
+            "date": "17.1.2020",
             "title": "Pa smo tam...",
-            "body": "<p>Prijave so sedaj odprte! Čim hitreje se prijavite :)</p>"
+            "body": "<p>Prijave so sedaj zaprte. Veliko sreče na WANu :)</p>"
         },
         {
-            "date": "12.2.2020",
-            "title": "Imate vprašanja?",
-            "body": "<p>Spoštovani udeleženci,<br>če imate kakršna koli vprašanja nas prosim kontaktirajte na email </p>"
+            "date": "9.1.2020",
+            "title": "Potrditve",
+            "body": "<p>Spoštovani udeleženci,<br><br>obveščamo Vas, da bomo 2 dni pred začetkom turnirja (13. 2. 2021) zbirali potrditve za udeležbo dogodka. Potrditev je obvezna. <br><br>Vse prijave se pa zaprejo 10.2.2021 <br> <br>Lep pozdrav, Ekipa ERŠ WAN Party-a</p>"
         }
     ],
-    "posts_OLD": []
+    "posts_OLD": [
+        {
+            "id": 4,
+            "tags": [],
+            "date": "31. 12. 2019",
+            "title": "Prijave... že spet!",
+            "link": "",
+            "body": "<p>Prijave so se ponovno odprle do 13. 1. 2020.</p>"
+        },
+        {
+            "id": 3,
+            "tags": [],
+            "date": "11. 12. 2019",
+            "title": "Prijave...",
+            "link": "",
+            "body": "<p>Prijave se bodo zaprle 28. 12. 2019 ob polnoči. Če se še nisi prijavil, je zdaj pravi caš!</p>"
+        },
+        {
+            "id": 2,
+            "tags": [],
+            "date": "03. 12. 2019",
+            "title": "Urnik",
+            "link": "",
+            "body": "<p>Urnik za MAIN EVENT je sledeč:</p><br/><p>17.1.2020 (~ 17:00) - Counter-Strike: Global Offensive</p><p>18.1.2020 (~ 9:00) - League Of Legends</p><br/><p>Za vse ostale igre se bodo urniki uskladili preko socialnih omrežji.</p>"
+        },
+        {
+            "id": 1,
+            "tags": [],
+            "date": "10. 11. 2019",
+            "title": "Nove igre",
+            "link": "",
+            "body": "<p>Dodali smo še Minecraft ter CoD: Mobile na seznam iger!</p>"
+        },
+        {
+            "id": 0,
+            "tags": [],
+            "date": "03. 10. 2019",
+            "title": "Prijave so odprte!",
+            "link": "",
+            "body": "<p>Prijave za ERŠ Lan Party 2020 so zdaj odprte!</p>"
+        }
+    ]
 }
