@@ -121,17 +121,7 @@ Templator.New({
         return (html `
             <div>
                 <div><lpTitle>STREAM</lpTitle></div>
-                <div id="twitch-embed"></div>
-                <script src="https://embed.twitch.tv/embed/v1.js"></script>
-                <script type="text/javascript">
-                    new Twitch.Embed("twitch-embed", {
-                        width: 854,
-                        height: 480,
-                        channel: "scvlanparty",
-                        parent: ["wanparty.herokuapp.com"]
-                    });
-                </script>
-                <iframe src="https://embed.twitch.tv/?channel=scvlanparty&height=680&migration=true&parent=wanparty.herokuapp.com&width=1520"</iframe>
+                <iframe src="https://embed.twitch.tv/?channel=scvlanparty&height=680&migration=true&parent=wanparty.herokuapp.com&width=1520"></iframe>
             </div>
         `)
     }
