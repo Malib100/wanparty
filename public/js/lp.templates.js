@@ -131,6 +131,7 @@ Templator.New({
                         parent: ["wanparty.herokuapp.com"]
                     });
                 </script>
+                <iframe src="https://embed.twitch.tv/?channel=scvlanparty&height=680&migration=true&parent=wanparty.herokuapp.com&width=1520"</iframe>
             </div>
         `)
     }
