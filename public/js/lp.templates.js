@@ -262,7 +262,7 @@ Templator.New({
   
                 <lpSocialLink
                     name="discord"
-                    link="https://discord.gg/CwpWQCC"
+                    link="https://discord.gg/Wep26wxXUP"
                 ></lpSocialLink>
   
                 <lpSocialLink

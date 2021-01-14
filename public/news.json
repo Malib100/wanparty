@@ -1,18 +1,10 @@
 {
-    "posts": [
-        {
-            "date": "17.1.2020",
-            "title": "Pa smo tam...",
-            "body": "<p>Prijave so sedaj zaprte. Veliko sreče na WANu :)</p>"
-        },
-        {
-            "date": "9.1.2020",
-            "title": "Potrditve",
-            "body": "<p>Spoštovani udeleženci,<br><br>obveščamo Vas, da bomo 2 dni pred začetkom turnirja (13. 2. 2021) zbirali potrditve za udeležbo dogodka. Potrditev je obvezna. <br><br>Vse prijave se pa zaprejo 10.2.2021 <br> <br>Lep pozdrav, Ekipa ERŠ WAN Party-a</p>"
-        }
-    ],
-    "posts_OLD": [
-        {
+    "posts": [{
+        "date": "9.1.2020",
+        "title": "Potrditve",
+        "body": "<p>Spoštovani udeleženci,<br><br>obveščamo Vas, da bomo 2 dni pred začetkom turnirja (12.2.2021) zbirali potrditve za udeležbo dogodka. Potrditev je obvezna. <br><br>Vse prijave se pa zaprejo 10.2.2021 <br> <br>Lep pozdrav, Ekipa ERŠ WAN Party-a</p>"
+    }],
+    "posts_OLD": [{
             "id": 4,
             "tags": [],
             "date": "31. 12. 2019",
@@ -43,6 +35,11 @@
             "title": "Nove igre",
             "link": "",
             "body": "<p>Dodali smo še Minecraft ter CoD: Mobile na seznam iger!</p>"
+        },
+        {
+            "date": "17.1.2020",
+            "title": "Pa smo tam...",
+            "body": "<p>Prijave so sedaj zaprte. Veliko sreče na WANu :)</p>"
         },
         {
             "id": 0,
