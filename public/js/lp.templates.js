@@ -121,24 +121,16 @@ Templator.New({
         return (html `
             <div>
                 <div><lpTitle>STREAM</lpTitle></div>
-                <div #margin="0 auto"  #width="96%">
-                    <div #overflow-x="hidden" #text-align="center">
-                        <iframe
-                            id="streamIframe"
-                            src="https://player.twitch.tv/?channel=scvlanparty"
-                            frameborder="0"
-                            allowfullscreen="true"
-                            scrolling="no"
-                            #width="96%"
-                            #max-width="800px"
-                            #height="50vh"
-                            #min-height="300px"
-                            #max-height="500px"
-                            #background-color="black"
-                            #margin="0 auto">
-                        </iframe>
-                    </div>
-                </div>
+                <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "monstercat",
+        parent: ["wanparty.herokuapp.com"]
+      });
+    </script>
             </div>
         `)
     }
