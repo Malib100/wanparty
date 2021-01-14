@@ -122,15 +122,15 @@ Templator.New({
             <div>
                 <div><lpTitle>STREAM</lpTitle></div>
                 <div id="twitch-embed"></div>
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
-        channel: "monstercat",
-        parent: ["wanparty.herokuapp.com"]
-      });
-    </script>
+                <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                <script type="text/javascript">
+                    new Twitch.Embed("twitch-embed", {
+                        width: 854,
+                        height: 480,
+                        channel: "scvlanparty",
+                        parent: ["wanparty.herokuapp.com"]
+                    });
+                </script>
             </div>
         `)
     }
