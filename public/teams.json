@@ -1,39 +1,8 @@
 {
     "lastChange": "14.01.2021",
     "teams": {
-        "lol": [{
-            /*"team": "Demonkoš",
-                "players": [
-                    "M A C E K",
-                    "MAX Macek",
-                    "Saj0",
-                    "Eyedee",
-                    "Hudi"
-            ]*/
-        }],
-        "valorant": [{
-            /*
-            "team": "Demonkoš",
-            "players": [
-                "M A C E K",
-                "MAX Macek",
-                "Saj0",
-                "Eyedee",
-                "Hudi"
-            ]
-            */
-        }],
-        "rl": [{
-            /*
-            "team": "Demonkoš",
-            "players": [
-                "M A C E K",
-                "MAX Macek",
-                "Saj0",
-                "Eyedee",
-                "Hudi"
-            ]
-            */
-        }]
+        "lol": [],
+        "valorant": [],
+        "rl": []
     }
 }
