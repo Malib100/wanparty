@@ -1,8 +1,71 @@
 {
     "lastChange": "21.1.2021",
     "teams": {
-        "lol": [],
-        "valorant": [],
-        "rl": []
+        "lol": [{
+            "team": "CR7 fanboys",
+            "players": [
+                "Kinmus.",
+                "C9 PlayMaker",
+                "jaban",
+                "TheExecutter",
+                "tkova"
+            ]
+        }],
+        "valorant": [{
+            "team": "Divinity eSports",
+            "players": [
+                "Зипy Φ",
+                "Fuze",
+                "Stealinnn",
+                "Cenca",
+                "ΦJakopsΦ"
+            ]
+        }, {
+            "team": "Peaky Blinders",
+            "players": [
+                "Zmtan",
+                "MaY",
+                "S1MPL3ONSLO",
+                "Bider003",
+                "saldin03"
+            ]
+        }],
+        "rl": [{
+            "team": "Trzinka",
+            "players": [
+                "Sirek",
+                "Zadrix^^"
+            ]
+        }, {
+            "team": "KBM (keyboardmouse)",
+            "players": [
+                "niKzu",
+                "sara"
+            ]
+        }, {
+            "team": "Neznama letet",
+            "players": [
+                "Berko0",
+                "xeGi."
+            ]
+        }, {
+            "team": "KA JE DE",
+            "players": [
+                "ma7jaZz",
+                "Timi12"
+            ]
+        }, {
+            "team": "",
+            "players": [
+                "M1llyx",
+                "Timmy"
+            ]
+        }, {
+            "team": "Šiška Delux",
+            "players": [
+                "Lgius",
+                "Videk"
+            ]
+        }]
     }
 }
