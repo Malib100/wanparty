@@ -2,18 +2,23 @@
     "posts": [{
             "id": 0,
             "tags": [],
-            "date": "14.2.2021",
+            "date": "14.1.2021",
             "title": "Prijave so odprte!",
             "link": "",
             "body": "<p>Prijave za ERŠ Wan Party 2021 so zdaj odprte!</p>"
         },
         {
-            "date": "14.2.2021",
+            "date": "21.1.2021",
             "title": "Potrditve",
-            "body": "<p>Spoštovani udeleženci,<br><br>obveščamo Vas, da bomo 4 dni pred začetkom turnirja (12.2.2021) zbirali potrditve za udeležbo dogodka. Potrditev je obvezna. <br><br>Vse prijave se pa zaprejo 10.2.2021 <br> <br>Lep pozdrav, Ekipa ERŠ WAN Party-a</p>"
+            "body": "<p>Spoštovani udeleženci,<br><br>obveščamo Vas, da bomo 4 dni pred začetkom turnirja (19.2.2021) zbirali potrditve za udeležbo dogodka. Potrditev je obvezna. <br><br>Vse prijave se pa zaprejo 15.2.2021 <br> <br>Lep pozdrav, Ekipa ERŠ WAN Party-a</p>"
         }
     ],
     "posts_OLD": [{
+            "id": 5,
+            "date": "14.1.2021",
+            "title": "Potrditve",
+            "body": "<p>Spoštovani udeleženci,<br><br>obveščamo Vas, da bomo 4 dni pred začetkom turnirja (12.2.2021) zbirali potrditve za udeležbo dogodka. Potrditev je obvezna. <br><br>Vse prijave se pa zaprejo 10.2.2021 <br> <br>Lep pozdrav, Ekipa ERŠ WAN Party-a</p>"
+        }, {
             "id": 4,
             "tags": [],
             "date": "31. 12. 2019",
