@@ -14,3 +14,21 @@ Developed with SASS and my own template utility Templator.
                 "Hudi"
             ]
         }]
+
+        {
+            "team": "",
+            "players": [
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        }
+        {
+            "team": "",
+            "players": [
+                "",
+                ""
+            ]
+        }
