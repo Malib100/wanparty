@@ -1,5 +1,5 @@
 {
-    "lastChange": "23. 1. 2021",
+    "lastChange": "3. 2. 2021",
     "teams": {
         "lol": [{
             "team": "CR7 fanboys",
@@ -9,6 +9,15 @@
                 "jaban",
                 "TheExecutter",
                 "tkova"
+            ]
+        }, {
+            "team": "THE FEMBOYS",
+            "players": [
+                "ShalashaskaZed",
+                "ReformedPunki",
+                "AnitaPee",
+                "AstralPoseidon",
+                "Aneqiii"
             ]
         }],
         "valorant": [{
@@ -28,6 +37,15 @@
                 "S1MPL3ONSLO",
                 "Bider003",
                 "saldin03"
+            ]
+        }, {
+            "team": "Člani",
+            "players": [
+                "BakedDino",
+                "NoobThePro8",
+                "NotMasterOfGG",
+                "Brots",
+                "okoladecc112"
             ]
         }],
         "rl": [{
@@ -77,6 +95,18 @@
             "players": [
                 "Dynamo",
                 "Keks"
+            ]
+        }, {
+            "team": "Boogers.",
+            "players": [
+                "SuckMyNik",
+                "Mato"
+            ]
+        }, {
+            "team": "Wonderkids",
+            "players": [
+                "am1i",
+                "LeviathanRL_"
             ]
         }]
     }
