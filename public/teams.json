@@ -1,5 +1,5 @@
 {
-    "lastChange": "10. 2. 2021",
+    "lastChange": "11. 2. 2021",
     "teams": {
         "lol": [{
             "team": "CR7 fanboys",
@@ -55,6 +55,15 @@
                 "NotMasterOfGG",
                 "Brots",
                 "okoladecc112"
+            ]
+        }, {
+            "team": "TROLL TINDER",
+            "players": [
+                "WANHEDA",
+                "Seba",
+                "Woozy",
+                "Patix",
+                "Grmekista"
             ]
         }],
         "rl": [{
@@ -122,6 +131,12 @@
             "players": [
                 "Faatimah",
                 "Luka"
+            ]
+        }, {
+            "team": "Tindi the bot",
+            "players": [
+                "Pokelešnik",
+                "Pipi"
             ]
         }]
     }
