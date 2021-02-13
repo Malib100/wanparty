@@ -1,5 +1,5 @@
 {
-    "lastChange": "11. 2. 2021",
+    "lastChange": "13. 2. 2021",
     "teams": {
         "lol": [{
             "team": "CR7 fanboys",
@@ -27,6 +27,24 @@
                 "dzzmn",
                 "Anton Aus Tiröl",
                 "BIeach Is Good"
+            ]
+        }, {
+            "team": "NoSkillGap",
+            "players": [
+                "Trizzy69",
+                "MalibuToxic",
+                "Lasko69",
+                "I3an4na",
+                "Korona Viren"
+            ]
+        }, {
+            "team": "Celjski grofje",
+            "players": [
+                "UlrichThePrince",
+                "bedamed",
+                "pechakizvelenja",
+                "2swifty4you",
+                "ChunkyDawg"
             ]
         }],
         "valorant": [{
@@ -137,6 +155,12 @@
             "players": [
                 "Pokelešnik",
                 "Pipi"
+            ]
+        }, {
+            "team": "Zadrečana",
+            "players": [
+                "Dado",
+                "Fёґgazёґ"
             ]
         }]
     }
