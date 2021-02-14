@@ -73,6 +73,24 @@
                 "Zesty Supreme",
                 "CukrMain4Ever"
             ]
+        }, {
+            "team": "RazzMaTazz",
+            "players": [
+                "Creeps321",
+                "FishAtSpellehut",
+                "Bootin",
+                "Revengeblade",
+                "Equistrien"
+            ]
+        }, {
+            "team": "Goon squad",
+            "players": [
+                "Bali8",
+                "amel777",
+                "Nesi4Ever",
+                "Landon donovan",
+                "Kidimen"
+            ]
         }],
         "valorant": [{
             "team": "Divinity eSports",
@@ -109,6 +127,15 @@
                 "Woozy",
                 "Patix",
                 "Grmekista"
+            ]
+        }, {
+            "team": "Slovenia United",
+            "players": [
+                "PatMan",
+                "z17",
+                "J0GUR7",
+                "Big popo Tim",
+                "KHorror"
             ]
         }],
         "rl": [{
@@ -188,6 +215,12 @@
             "players": [
                 "Dado",
                 "Fёґgazёґ"
+            ]
+        }, {
+            "team": "Arn Dorf",
+            "players": [
+                "MIŽI",
+                "Ichner"
             ]
         }]
     }
