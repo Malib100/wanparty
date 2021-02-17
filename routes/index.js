@@ -38,21 +38,12 @@ router.get('/hi', (req, res) => {
 let brackets = {
     lol: {
         game: 'League of Legends',
-        bracket: 'https://battlefy.com/embeds/5fd77f4d0beb6e3294dfe065/stage/5fd77fc3a9607d74e8f8919b'
+        bracket: 'https://challonge.com/xcn1tefm/module'
     },
     valorant: {
         game: 'Valorant',
-        bracket: 'https://battlefy.com/embeds/5fd77f4d0beb6e3294dfe065/stage/5fd77fc3a9607d74e8f8919b'
-    },
-    csgo: {
-        game: 'Counter-Strike: Global Offensive',
-        bracket: 'https://battlefy.com/embeds/5fd77f4d0beb6e3294dfe065/stage/5fd77fc3a9607d74e8f8919b'
-
-    },
-    rl: {
-        game: 'Rocket League',
-        bracket: 'https://battlefy.com/embeds/5fd77f4d0beb6e3294dfe065/stage/5fd77fc3a9607d74e8f8919b'
-    },
+        bracket: 'https://challonge.com/gc5er/module'
+    }
 }
 
 // Spored za game

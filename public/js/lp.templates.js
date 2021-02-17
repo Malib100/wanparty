@@ -34,7 +34,6 @@ Templator.New({
                 <div  .header-nav-bracketlist>
                     <a href="/razporedje/lol" ><div>LoL</div></a>
                     <a href="/razporedje/valorant" ><div>Valorant</div></a>
-                    <a href="/razporedje/rl" ><div>Rocket Leauge</div></a>
                 </div>
             </div>
         `)
