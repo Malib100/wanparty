@@ -39,10 +39,6 @@ let brackets = {
     lol: {
         game: 'League of Legends',
         bracket: 'https://battlefy.com/embeds/602e49d11f489f7f47cd3b34/stage/602e4a7fa74cc17c31b7e179'
-    },
-    valorant: {
-        game: 'Valorant',
-        bracket: 'https://challonge.com/gc5er/module'
     }
 }
 
