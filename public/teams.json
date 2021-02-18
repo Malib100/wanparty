@@ -1,5 +1,5 @@
 {
-    "lastChange": "15. 2. 2021",
+    "lastChange": "18. 2. 2021",
     "teams": {
         "lol": [{
             "team": "CR7 fanboys",
@@ -257,6 +257,12 @@
             "players": [
                 "MIŽI",
                 "Ichner"
+            ]
+        }, {
+            "team": "Android Users",
+            "players": [
+                "Deadlox",
+                "BELI DELFIN"
             ]
         }]
     }
