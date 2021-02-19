@@ -42,20 +42,6 @@
                 {% endfor %}
             </lpTeamsContainer>
             <lpTeamsContainer
-                game="Valorant"
-                frame="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/LolGameInfo-Harbinger/it_IT/b49c208c106c3566ac66bc70dc62993c84c0511e/assets/assets/images/gi-landing-top.jpg"
-            >
-                {% for team in teams.valorant %}
-                    <lpTeam teamname="{{ team.team | safe }}">
-                        
-                        {% for player in team.players %}
-                            <div>{{ player }}</div>
-                        {% endfor %}
-                        
-                    </lpTeam>
-                {% endfor %}
-            </lpTeamsContainer>
-            <lpTeamsContainer
                 game="Rocket League"
                 frame="https://lolstatic-a.akamaihd.net/frontpage/apps/prod/LolGameInfo-Harbinger/it_IT/b49c208c106c3566ac66bc70dc62993c84c0511e/assets/assets/images/gi-landing-top.jpg"
             >
