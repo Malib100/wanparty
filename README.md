@@ -1,8 +1,5 @@
-# ERŠ ŠCV Lan Party
- 
-This is a simple little Node.js app I made for my school's annual Lan Party event.
-
-Developed with SASS and my own template utility Templator.
+# ERŠ ŠCV Wan Party
+Spletna stran letošnjega Lan Party-ja, ki je bil letos izveden na daljavo in preimenovan v Wan Party
 
 "rl": [{
             "team": "Demonkoš",
